@@ -127,13 +127,15 @@ const onlyNumbersSorted = (array) => {
     })
 
     // Sort the number array in ascending order
-    // Using an arrow function and the ternary operator
-    // to check whether elements a and b need to be swapped
-    // A '1' means that element a is greater than element b,
-    // and so they need to be swapped.
-    // Otherwise, a '-1' means that element a is less than
-    // element b, so no swapping needs to happen.
-    // Return the final array
+    // using an arrow function and the ternary operator
+    // to check whether elements a and b need to be swapped.
+    // After the ternary operator '?', the first expression
+    // is the truthy, and the expression after the colon ':'
+    // is the falsey.
+    // For .sort, if the compareFunction returns a value less
+    // than zero, then leave a and b unchanged.
+    // If the compareFunction returns a value greater than 0,
+    // sort b before a.
     return numArray.sort( (a, b) => a > b ? 1 : -1)
 }
 

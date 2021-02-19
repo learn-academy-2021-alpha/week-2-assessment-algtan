@@ -9,6 +9,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 1. Why would you use the method super()?
 
   Your answer:
+  You would use the method super() in order for the child class to expand on the constructor() method.
 
   Researched answer:
 
@@ -17,6 +18,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 2. What is a virtual DOM?
 
   Your answer:
+  DOM stands for Document Object Model. The virtual DOM refers to the DOM items represented in React, as the actual DOM is in the HTML file.
 
   Researched answer:
 
@@ -25,6 +27,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 3. When creating a basic (stateless) class component in React, what are the necessary elements needed to display "Hello World" in the browser?
 
   Your answer:
+  The necessary element needed to display "Hello World" is the render() function.
 
   Researched answer:
 
@@ -33,6 +36,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 4. What is JSX?
 
   Your answer:
+  JSX is React's way of representing HTML code.
 
   Researched answer:
 
@@ -41,6 +45,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 5. What is state in React?
 
   Your answer:
+  State is an object used to store data in a React application.
 
   Researched answer:
 
@@ -49,6 +54,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 6. STRETCH: What is hoisting in JavaScript?
 
   Your answer:
+  Hoisting in JavaScript is when functions and classes are recognized prior to the execution of any code.
 
   Researched answer:
 
