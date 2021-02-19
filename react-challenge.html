@@ -6,7 +6,12 @@
 
 <!-- HINT: Check the console in the browser developer tools for errors. -->
 
-
+<!-- Bug List -->
+<!--
+1) Missing carrots inside of render
+2) The onClick event was missing 'this' for the function
+3) The function 'handleMoodOptions' was missing 'this.state' in front of the key 'moods'
+-->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -35,12 +40,15 @@
 
         handleMoodOptions = () => {
           let randomIndex = Math.floor(Math.random() * this.state.moods.length )
-          this.setState({ currentMood: moods[randomIndex] })
+          // Missing 'this.state' before moods in the setState
+          this.setState({ currentMood: this.state.moods[randomIndex] })
         }
 
         render(){
           return(
-
+            // Missing carrots inside of return
+            // Missing 'this' before 'handleMoodOptions' in the onClick event
+            <>
               <h1>Welcome to the Mood Meter App</h1>
 
               <h3>Mood Options:</h3>
@@ -49,10 +57,10 @@
                 { this.state.currentMood }
               </div>
 
-              <button onClick={ handleMoodOptions }>
+              <button onClick={ this.handleMoodOptions }>
                 Click Here For Next Mood option
               </button>
-
+            </>
           )
         }
       }
