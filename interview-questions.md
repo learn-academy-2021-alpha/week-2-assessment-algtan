@@ -12,7 +12,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   You would use the method super() in order for the child class to expand on the constructor() method.
 
   Researched answer:
-
+  The method 'super()' is used by the child class to gain access to the parent class' properties and methods.
 
 
 2. What is a virtual DOM?
@@ -21,7 +21,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   DOM stands for Document Object Model. The virtual DOM refers to the DOM items represented in React, as the actual DOM is in the HTML file.
 
   Researched answer:
-
+  The virtual DOM is a lightweight version of the actual DOM. DOM operations are often slow and browser specific, so working with the virtual DOM is preferred.
 
 
 3. When creating a basic (stateless) class component in React, what are the necessary elements needed to display "Hello World" in the browser?
@@ -30,7 +30,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   The necessary element needed to display "Hello World" is the render() function.
 
   Researched answer:
-
+  The necessary elements needed include a render method. And inside the render method is a return with JSX code.
 
 
 4. What is JSX?
@@ -39,7 +39,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   JSX is React's way of representing HTML code.
 
   Researched answer:
-
+  JSX is short for JavaScript XML, and it allows us to create HTML elements in React.
 
 
 5. What is state in React?
@@ -48,7 +48,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   State is an object used to store data in a React application.
 
   Researched answer:
-
+  State in React is an object that is used to store data and information within a component.
 
 
 6. STRETCH: What is hoisting in JavaScript?
@@ -57,7 +57,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Hoisting in JavaScript is when functions and classes are recognized prior to the execution of any code.
 
   Researched answer:
-
+  JavaScript code interpretation is done in two passes. Hoisting occurs during the first pass in the interpreter, in which variable and function declarations are processed. The order of when these things appear in the code won't matter as a result. On the second pass, the code is executed.
 
 
 ## Looking Ahead: Terms for Next Week
