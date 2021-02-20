@@ -64,8 +64,8 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-- React lifecycle methods
-- React props
-- event.preventDefault()
-- DOM events
-- MVC
+- React lifecycle methods: special methods on the component class that is ran when a component mounts and unmounts. Mounting takes place when a component is being created and inserted into the DOM. Unmounting takes place when a component is being removed from the DOM.
+- React props: Props is short for properties, and it is how data and methods are passed between different components.
+- event.preventDefault(): JavaScript function that tells the browser not to use the 'default' action
+- DOM events: actions that take place after a user action or a state change to the elements in a DOM tree.
+- MVC: acronym for model-view-controller. The MVC is a software design pattern used to distinguish the code into different sections that serve different purposes. This includes how data is maintained, how the user interface looks like, and how everything functions together.
